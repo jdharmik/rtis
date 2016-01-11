@@ -1,3 +1,3 @@
-#hsddfsafsdfdsfello world this is my first python program
+#hello world this is my first python program
 #thanks
 #keep going
