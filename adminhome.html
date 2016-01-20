@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Road Transport Information System </title>
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link href="css/custom.css" type="text/css" rel="stylesheet"/>
+	<link href="js/bootstrap.js" type="text/javascript"  />
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+			<a  href="index.html"><i class="fa fa-bus fa-2x"></i></a>
+			
+			</div>
+			</div>
+
+			<ul class="nav navbar-nav">
+				<li> <a href="#" style="font-size:20px; color:#dddddd;">Road Transport Information System</a> </li>
+				<li class="active"><a href="#">Buses</a></li>
+				<li><a href="#">Routes</a></li>
+				<li><a href="#">Cities</a></li>
+				<li><a href="#">Bus-stops</a></li>
+				<li><a href="#">Bus-stations</a></li>
+				<li><a href="#">Drivers</a></li>
+
+			</ul>
+
+	    	<ul class="nav navbar-nav navbar-right">
+	      		<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	      		<li><a href="index.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+	    	</ul>
+		</div>	
+	</nav>
+<div class="container">
+	<div class="panel">
+<div class="panel-heading" style="background-color:#b7e2fb;">
+<p class="text-center" > Admin Dash Board </p>
+</div>
+<div class="panel-body">
+	<br/>
+	<h4 class="text-center"> Bus Details List </h4>
+	<hr/>
+ <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Bus No</th>
+        <th>Bus Type</th>
+        <th>Departure Time</th>
+       <th>Arrival Time</th>
+       <th> Fare (in INR)</th>
+       <th>Capacity</th>
+       <th>Update Details</th>
+       <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr >
+        <td>AP03 TV 3332</td>
+        <td>AC</td>
+        <td>06:00 AM</td>
+        <td>05:00 PM </td>
+        <td>Rs.1200/- </td>
+        <td>40</td>
+        <td><button type="submit" class="btn btn-primary">Update</button> </td>
+         <td><button type="submit" class="btn btn-danger">Delete</button> </td>
+      </tr>
+      <tr >
+        <td>AP03 D 1113</td>
+        <td>Non-AC </td>
+        <td>07:00 AM</td>
+        <td>01:00 PM </td>
+        <td>Rs.600/- </td>
+        <td>45</td>
+        <td><button type="submit" class="btn btn-primary">Update</button> </td>
+         <td><button type="submit" class="btn btn-danger">Delete</button> </td>
+      </tr>
+      <tr>
+        <td>AP03 TE 2087</td>
+        <td>AC</td>
+        <td>08:00 AM</td>
+        <td>03:00 PM </td>
+        <td>Rs.800/- </td>
+        <td>50</td>
+        <td><button type="submit" class="btn btn-primary">Update</button> </td>
+         <td><button type="submit" class="btn btn-danger">Delete</button> </td>
+      </tr>
+       <tr>
+        <td>AP09 SE 2111</td>
+        <td>Non-AC</td>
+        <td>05:00 PM</td>
+        <td>03:00 AM </td>
+        <td>Rs.1500/- </td>
+        <td>45</td>
+        <td><button type="submit" class="btn btn-primary">Update</button> </td>
+         <td><button type="submit" class="btn btn-danger">Delete</button> </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+</div>	
+</div>
+<a href="addbus.html"><button type="submit"  class="btn btn-success">Add a Bus</button></a>
+</div>	<!-- container -->
+<br/>
+
+	<div id="footer">
+	<div class="row">
+	<div class="col-md-3">
+	<h3 class="text-center" style="color:#ffffff;">Top Bus Routes</h3><hr/>
+	<ul style="list-style-type:none;">
+	   <li><a href="#">Tirupati - Bangalore </a></li><br/>
+	   <li><a href="#">Chennai - Bangalore</a> </li><br/>
+	   <li><a href="#">Hyderabad - Chennai</a> </li><br/>
+	   <li><a href="#">Chennai - Hyderabad </a></li><br/>
+	   <li><a href="#">Vijaywada - Chennai </a></li><br/>
+	   <li><a href="#">Bombay - Bangalore </a> </li>   
+	</ul>
+	</div>
+	<div class="col-md-3">
+	<h3 class="text-center" style="color:#ffffff;">Top Bus Operators</h3><hr/>
+	<ul style="list-style-type:none;">
+	   <li><a href="#">SRS Travels </a></li><br/>
+	   <li><a href="#">KPN Travels</a> </li><br/>
+	   <li><a href="#">SRM Transports</a> </li><br/>
+	   <li><a href="#">Kesineni Travels</a></li><br/>
+	   <li><a href="#">SVR Tours &amp; Travels</a></li><br/>
+	   <li><a href="#">Orange Tours &amp; Travels </a> </li>   
+	</ul>
+	</div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3">
+		<h3 class="text-center" style="color:#ffffff;">Contact Us</h3><hr/>
+	<i class="fa fa-phone fa-2x"></i> +91 9676662111<br/><br/>
+	<i class="fa fa-map-marker fa-2x"></i>RTIS , 1314, 3rd and 4th Floors, Double Road, Indira Nagar, Stage 2, Bangalore - 560038.<br/><br/>
+	<i class="fa fa-envelope fa-2x"></i> dharmik.jampala@rtis.com <br/>
+	</div>
+	</div> <!-- row -->	
+	</div>
+	<div id="footer_copyright">
+		<div class="text-center">
+	&copy; 2016 RTIS(India). All Rights Reserved</div>
+	</div>
+
+
+
+</body>	
+</html>

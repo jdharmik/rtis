@@ -1,0 +1,137 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<title> Road Transport Information System </title>
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link href="css/custom.css" type="text/css" rel="stylesheet"/>
+	<link href="js/bootstrap.js" type="text/javascript"  />
+	</head>
+	<body>
+<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+			<a  href="index.html"><i class="fa fa-bus fa-2x"></i></a>
+			
+			</div>
+			</div>
+
+			<ul class="nav navbar-nav">
+				<li> <a href="#" style="font-size:20px; color:#dddddd;">Road Transport Information System</a> </li>
+				<li class="active"><a href="#">Buses</a></li>
+				<li><a href="#">Hotels</a></li>
+
+			</ul>
+
+	    	<ul class="nav navbar-nav navbar-right">
+	      		<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	      		<li><a href="adminhome.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	    	</ul>
+		</div>	
+	</nav>
+
+	<br/><br/>
+	<br/>
+	<br/>
+	<div class="container" style="height:500px; width:750px; ">
+	<div class="panel panel-success panel-sm" align="left">
+	<div class="panel-heading">
+	Online Bus Ticket Booking
+	</div>
+	<div class="panel-body">
+	<form role="form" action="buslist.html" method="post">
+	<div class="row">
+	<div class="col-md-6">
+		<div class="form-group">
+	<label>From </label>
+	<input type="text" placeholder="Enter a city" class="form-control" name="fromLoc" ></input>
+	</div>
+	</div>
+	<div class="col-md-6">
+			<div class="form-group">
+	<label>To</label>
+	<input type="text" placeholder="Enter a city" class="form-control" name="toLoc" ></input>
+	</div>
+	</div>
+	</div> <!--row -->
+	<div class="row">
+	<div class="col-md-6">
+		<div class="form-group">
+	<label>Pick-up Location </label>
+	<input type="text" placeholder="Enter the pick-up point" class="form-control" name="pickUpPoint" ></input>
+	</div>
+	</div>
+	<div class="col-md-6">
+			<div class="form-group">
+	<label>Drop Location</label>
+	<input type="text" placeholder="Enter the drop point" class="form-control" name="dropPoint" ></input>
+	</div>
+	</div>
+	</div> <!-- row -->
+	<div class="row">
+		<div class="col-md-4"></div>
+	<div class="col-md-4">
+	<div class="form-group" align="center">	
+	<label> Date of Journey </label>
+	<input type="date" class="form-control" name="doj" ></input>
+	</div>
+	</div>
+	<div class="col-md-4"></div>
+	</div> <!--row -->
+	<div class="form-group" align="center">
+	<button type="submit" class="btn btn-success" align="center">Search Buses</button>
+	</div>
+	</form>	
+		</div>
+	</div>
+
+	</div>	
+	<div class="jumbotron" style="background-color: #ffedca; margin:-200px 50px 10px 50px;">
+	<h2 style="color:#e61d11;"> Road Transport Information System (RTIS)</h2><hr/><br/>
+	<p style="font-size:16px;"> 
+	RTIS is India number 1 bus ticketing platform, was founded in 2005 and is a part of Digital India. We take pride in providing bus ticket fare with zero booking charges. You can now choose from 1500+ bus operators and 80,000 routes in India.RTIS has moved beyond providing value over the internet by reaching out to customers using all media that provide them convenience - be it the phone, home delivery, physical outlets or even SMS.
+	</p>
+	</div>
+
+		
+	<div id="footer">
+	<div class="row">
+	<div class="col-md-3">
+	<h3 class="text-center" style="color:#ffffff;">Top Bus Routes</h3><hr/>
+	<ul style="list-style-type:none;">
+	   <li><a href="#">Tirupati - Bangalore </a></li><br/>
+	   <li><a href="#">Chennai - Bangalore</a> </li><br/>
+	   <li><a href="#">Hyderabad - Chennai</a> </li><br/>
+	   <li><a href="#">Chennai - Hyderabad </a></li><br/>
+	   <li><a href="#">Vijaywada - Chennai </a></li><br/>
+	   <li><a href="#">Bombay - Bangalore </a> </li>   
+	</ul>
+	</div>
+	<div class="col-md-3">
+	<h3 class="text-center" style="color:#ffffff;">Top Bus Operators</h3><hr/>
+	<ul style="list-style-type:none;">
+	   <li><a href="#">SRS Travels </a></li><br/>
+	   <li><a href="#">KPN Travels</a> </li><br/>
+	   <li><a href="#">SRM Transports</a> </li><br/>
+	   <li><a href="#">Kesineni Travels</a></li><br/>
+	   <li><a href="#">SVR Tours &amp; Travels</a></li><br/>
+	   <li><a href="#">Orange Tours &amp; Travels </a> </li>   
+	</ul>
+	</div>
+	<div class="col-md-3"></div>
+	<div class="col-md-3">
+		<h3 class="text-center" style="color:#ffffff;">Contact Us</h3><hr/>
+	<i class="fa fa-phone fa-2x"></i> +91 9676662111<br/><br/>
+	<i class="fa fa-map-marker fa-2x"></i>RTIS , 1314, 3rd and 4th Floors, Double Road, Indira Nagar, Stage 2, Bangalore - 560038.<br/><br/>
+	<i class="fa fa-envelope fa-2x"></i> dharmik.jampala@rtis.com <br/>
+	</div>
+	</div> <!-- row -->	
+	</div>
+	<div id="footer_copyright">
+		<div class="text-center">
+	&copy; 2016 RTIS(India). All Rights Reserved</div>
+	</div>
+	</body>
+
+	</html>
